@@ -4,20 +4,18 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Factorial - What Da Hex!</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta property="og:title" content="Factorial" />
-<meta property="og:description" content="This is my first post and I am writing it to practice my markdown skills. I have chosen a very simple topic, Factorials. So, what is a factorial?
- In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n. 1
- Also,
- The value of 0! is 1, according to the convention for an empty product." />
+<meta property="og:description" content="This is my first post and hence I have chosen the topic, Factorials. It is very simple to write about and in the process will help me get acquainted to writing and publishing a post. So let&#39;s get started.
+What is a factorial?
+ In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n. 1" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://whatdahex.dev/posts/factorial/" />
 <meta property="article:published_time" content="2020-01-03T17:11:47+05:30" />
 <meta property="article:modified_time" content="2020-01-03T17:11:47+05:30" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Factorial"/>
-<meta name="twitter:description" content="This is my first post and I am writing it to practice my markdown skills. I have chosen a very simple topic, Factorials. So, what is a factorial?
- In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n. 1
- Also,
- The value of 0! is 1, according to the convention for an empty product."/>
+<meta name="twitter:description" content="This is my first post and hence I have chosen the topic, Factorials. It is very simple to write about and in the process will help me get acquainted to writing and publishing a post. So let&#39;s get started.
+What is a factorial?
+ In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n. 1"/>
 <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" media="screen" href="https://whatdahex.dev/css/normalize.css" />
@@ -72,7 +70,8 @@
 		</div>
 
 		<div class="markdown">
-			<p>This is my first post and I am writing it to practice my markdown skills. I have chosen a very simple topic, Factorials. So, what is a factorial?</p>
+			<p>This is my first post and hence I have chosen the topic, Factorials. It is very simple to write about and in the process will help me get acquainted to writing and publishing a post. So let's get started.</p>
+<p>What is a factorial?</p>
 <blockquote>
 <p>In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n. <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
 </blockquote>
@@ -87,7 +86,7 @@
    = 5 x 4 x 3 x 2 x 1
    = 120
 </code></pre><p>Now, let's write a computer program which will take <code>n</code> as the input and comput <code>n!</code>. I'll be writing the code in java, but you can use any programming language of your choice.</p>
-<p>Let's create a class: <code>Factorial</code> and add a <em>public static</em> method <code>factorialUsingRecursion</code> to it. This method will take a non-negative integer input <code>n</code> of type <code>int</code> and return the factorial of type <code>long</code>. We are using <code>long</code> to safeguard from number overflow, however, if the factorial becomes larger than (2<sup>64</sup> - 1) it will overflow anyways. This is how your code should look like:</p>
+<p>Let's create a class <code>Factorial</code> and add a <em>public static</em> method <code>usingRecursion</code> to it. This method will take a non-negative integer input <code>n</code> of type <code>int</code> and return the factorial of type <code>long</code>. We are using <code>long</code> to safeguard from number overflow, however, if the factorial becomes larger than (2<sup>64</sup> - 1) it will overflow anyways. This is how your code should look like:</p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
@@ -100,13 +99,13 @@
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#728e00">public</span> <span style="color:#728e00">class</span> <span style="color:#434f54">Factorial</span> <span style="color:#728e00">{</span>
 
-    <span style="color:#728e00">public</span> <span style="color:#728e00">static</span> <span style="color:#00979d">long</span> <span style="color:#d35400">factorialUsingRecursion</span><span style="color:#728e00">(</span><span style="color:#00979d">int</span> <span style="color:#434f54">n</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
+    <span style="color:#728e00">public</span> <span style="color:#728e00">static</span> <span style="color:#00979d">long</span> <span style="color:#d35400">usingRecursion</span><span style="color:#728e00">(</span><span style="color:#00979d">int</span> <span style="color:#434f54">n</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
 
     <span style="color:#728e00">}</span>
 <span style="color:#728e00">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>The name of the method is self explanatory. We will later implement a more efficient method which will compute the factorial iteratively. For now let's implement <code>factorialUsingRecursion</code>. If we look at the mathematical definition of <code>n!</code> we can infer that:</p>
+</div><p>The name of the method is self explanatory. We will later implement a more efficient method which will compute the factorial iteratively. For now let's implement <code>usingRecursion</code>. If we look at the mathematical definition of <code>n!</code> we can infer that:</p>
 <p><code>n! = n x (n - 1)!</code> <a name="a"><sup>a</sup></a></p>
 <p>It naturally follows, that we can compute the factorial recursively. For recursion to terminate we require a base condition which we already have as <code>0! = 1</code> <a name="b"><sup>b</sup></a></p>
 <p>Using <a href="#a">a</a>  and <a href="#b">b</a>, the code now looks as follows:</p>
@@ -126,19 +125,19 @@
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#728e00">public</span> <span style="color:#728e00">class</span> <span style="color:#434f54">Factorial</span> <span style="color:#728e00">{</span>
 
-    <span style="color:#728e00">public</span> <span style="color:#728e00">static</span> <span style="color:#00979d">long</span> <span style="color:#d35400">factorialUsingRecursion</span><span style="color:#728e00">(</span><span style="color:#00979d">int</span> <span style="color:#434f54">n</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
+    <span style="color:#728e00">public</span> <span style="color:#728e00">static</span> <span style="color:#00979d">long</span> <span style="color:#d35400">usingRecursion</span><span style="color:#728e00">(</span><span style="color:#00979d">int</span> <span style="color:#434f54">n</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
         <span style="color:#728e00">if</span> <span style="color:#728e00">(</span><span style="color:#434f54">n</span> <span style="color:#728e00">=</span><span style="color:#728e00">=</span> <span style="color:#434f54">0</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
             <span style="color:#728e00">return</span> <span style="color:#434f54">1</span><span style="color:#728e00">;</span>
         <span style="color:#728e00">}</span>
 
-        <span style="color:#728e00">return</span> <span style="color:#434f54">n</span> <span style="color:#728e00">*</span> <span style="color:#434f54">factorialUsingRecursion</span><span style="color:#728e00">(</span><span style="color:#434f54">n</span> <span style="color:#728e00">-</span> <span style="color:#434f54">1</span><span style="color:#728e00">)</span><span style="color:#728e00">;</span>
+        <span style="color:#728e00">return</span> <span style="color:#434f54">n</span> <span style="color:#728e00">*</span> <span style="color:#434f54">usingRecursion</span><span style="color:#728e00">(</span><span style="color:#434f54">n</span> <span style="color:#728e00">-</span> <span style="color:#434f54">1</span><span style="color:#728e00">)</span><span style="color:#728e00">;</span>
     <span style="color:#728e00">}</span>
 <span style="color:#728e00">}</span>
 </code></pre></td></tr></table>
 </div>
 </div><p>Though the recursive method is functionally correct, looks simple and derives naturally from the mathematical definition, doesn't mean it's the best solution. <em>Can we do better?</em> Yes, but first we need to know <em>what can we do better</em>.</p>
-<p><code>factorialUsingRecursion</code> is not a tail recursive <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> method because <code>n</code> still has to be multiplied with result of <code>(n-1)!</code> which in turn waits result of <code>(n-2)!</code> and so on. Which means the stack will keep growing with every recursion. Remember that a function call is not cheap. It requires setting up a stack frame which consumes space on the stack and a few cpu cycles. And since stack space is limited, a large enough input might cause our program to run out of stack space, and exit with the infamous StackOverflowError. This can be fixed using an iterative method. But, how do we write one? It's actually pretty simple.</p>
-<p>We can build <code>n!</code> by maintaining two states, an accumulator and a counter. Let's call this accumulator <code>factorial</code> and initialize it with value <code>1</code>. And <code>n</code> can be the counter itself. Then run a loop with <code>n</code> decrementing upon each iteration till it becomes <code>1</code>. In each iteration update value of <code>factorial</code> to it's previous value multiplied by current value of <code>n</code>. At the end of the iteration, <code>factorial</code> will contain the desired result. Let's see the code.</p>
+<p><code>usingRecursion</code> is not a tail recursive <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> method because <code>n</code> still has to be multiplied with result of <code>(n-1)!</code> which in turn waits result of <code>(n-2)!</code> and so on. Which means the stack will keep growing with every recursion. Remember that a function call is not cheap. It requires setting up a stack frame which consumes space on the stack and a few cpu cycles. And since stack space is limited, a large enough input might cause our program to run out of stack space, and exit with the infamous StackOverflowError. This can be fixed using an iterative method. But, how do we write one? It's actually pretty simple.</p>
+<p>We can build <code>n!</code> by maintaining two states, an accumulator and a counter. Let's call this accumulator <code>factorial</code> and initialize it with value <code>1</code>. And <code>n</code> can be the counter itself. Then run a loop with <code>n</code> decrementing upon each iteration till it becomes <code>1</code>. In each iteration update value of <code>factorial</code> to it's previous value multiplied by current value of <code>n</code>. At the end of the iteration, <code>factorial</code> will contain the desired result. Let's add another method and this time we will call it <code>usingIteration</code></p>
 <div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
 <table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">0
@@ -152,7 +151,7 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#728e00">public</span> <span style="color:#728e00">static</span> <span style="color:#00979d">long</span> <span style="color:#d35400">factorial</span><span style="color:#728e00">(</span><span style="color:#00979d">int</span> <span style="color:#434f54">n</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#728e00">public</span> <span style="color:#728e00">static</span> <span style="color:#00979d">long</span> <span style="color:#d35400">usingIteration</span><span style="color:#728e00">(</span><span style="color:#00979d">int</span> <span style="color:#434f54">n</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
     <span style="color:#00979d">long</span> <span style="color:#434f54">factorial</span> <span style="color:#728e00">=</span> <span style="color:#434f54">1</span><span style="color:#728e00">;</span>
     <span style="color:#728e00">while</span> <span style="color:#728e00">(</span><span style="color:#434f54">n</span> <span style="color:#728e00">&gt;</span> <span style="color:#434f54">0</span><span style="color:#728e00">)</span> <span style="color:#728e00">{</span>
         <span style="color:#434f54">factorial</span> <span style="color:#728e00">=</span> <span style="color:#434f54">factorial</span> <span style="color:#728e00">*</span> <span style="color:#434f54">n</span><span style="color:#728e00">;</span> <span style="color:#95a5a6">// update factorial
@@ -190,9 +189,8 @@ n = 0
 
 loop ends since (n=0) &gt; 0 =&gt; false.
 return 120
-</code></pre><p>The above code only requires space for storing factorial and the counter. There is no stack space growth, so no wastage of space and cpu cycles. This is pretty good for us. However, factorials grow very fast, for example, <code>20! = 2432902008176640000</code> and <code>100! = 9.332621544 × 10^157</code>. That escalated quickly :stuck_out_tongue_winking_eye:. Our implementation, though efficient, cannot store such large factorials. We will stop here for now.</p>
-<p>You can go through the <a href="https://github.com/whatdahex/java-dsa/blob/master/src/main/java/com/training/Factorial.java" title="Factorial code listing">complete code listing here</a>.</p>
-<p>For fancier factorial algorithms checkout <a href="http://www.luschny.de/math/factorial/FastFactorialFunctions.htm" title="FastFactorialFunctions">FastFactorialFunctions</a></p>
+</code></pre><p>The above code only requires space for storing factorial and the counter. There is no stack space growth, so no wastage of space and cpu cycles. This is pretty good for us. However, factorials grow very fast, for example, <code>20! = 2432902008176640000</code> and <code>100! = 9.332621544 × 10^157</code>. Yes, that escalated quickly. Our implementation, though efficient, cannot store such large factorials. So, for the sake of keeping it simple, let's stop here. You can go through the <a href="https://github.com/whatdahex/java-dsa/blob/master/src/main/java/com/training/Factorial.java" title="Factorial code listing">complete code listing here</a>.</p>
+<p>For the curious I will just leave this here: <a href="http://www.luschny.de/math/factorial/FastFactorialFunctions.htm" title="FastFactorialFunctions">FastFactorialFunctions</a></p>
 <p>I hope you enjoyed reading it as much as I enjoyed writing it.</p>
 <h2 id="references">References</h2>
 <section class="footnotes" role="doc-endnotes">
