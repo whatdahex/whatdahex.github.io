@@ -3,15 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://whatdahex.dev/about/</loc>
+    <loc>https://whatdahex.dev/tags/algorithms/</loc>
+    <lastmod>2020-01-03T17:11:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://whatdahex.dev/posts/factorial/</loc>
+    <lastmod>2020-01-03T17:11:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://whatdahex.dev/tags/factorial/</loc>
+    <lastmod>2020-01-03T17:11:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://whatdahex.dev/tags/java/</loc>
+    <lastmod>2020-01-03T17:11:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://whatdahex.dev/posts/</loc>
+    <lastmod>2020-01-03T17:11:47+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://whatdahex.dev/tags/</loc>
+    <lastmod>2020-01-03T17:11:47+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://whatdahex.dev/</loc>
+    <lastmod>2020-01-03T17:11:47+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://whatdahex.dev/about/</loc>
   </url>
   
 </urlset>

@@ -7,9 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© WhatDaHex.dev</copyright>
+    <lastBuildDate>Fri, 03 Jan 2020 17:11:47 +0530</lastBuildDate>
     
 	<atom:link href="https://whatdahex.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>algorithms</title>
+      <link>https://whatdahex.dev/tags/algorithms/</link>
+      <pubDate>Fri, 03 Jan 2020 17:11:47 +0530</pubDate>
+      
+      <guid>https://whatdahex.dev/tags/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>factorial</title>
+      <link>https://whatdahex.dev/tags/factorial/</link>
+      <pubDate>Fri, 03 Jan 2020 17:11:47 +0530</pubDate>
+      
+      <guid>https://whatdahex.dev/tags/factorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://whatdahex.dev/tags/java/</link>
+      <pubDate>Fri, 03 Jan 2020 17:11:47 +0530</pubDate>
+      
+      <guid>https://whatdahex.dev/tags/java/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

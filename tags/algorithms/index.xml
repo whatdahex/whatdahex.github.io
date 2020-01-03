@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>What Da Hex!</title>
-    <link>https://whatdahex.dev/</link>
-    <description>Recent content on What Da Hex!</description>
+    <title>algorithms on What Da Hex!</title>
+    <link>https://whatdahex.dev/tags/algorithms/</link>
+    <description>Recent content in algorithms on What Da Hex!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© WhatDaHex.dev</copyright>
     <lastBuildDate>Fri, 03 Jan 2020 17:11:47 +0530</lastBuildDate>
     
-	<atom:link href="https://whatdahex.dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://whatdahex.dev/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,16 +22,6 @@
  In mathematics, the factorial of a positive integer n, denoted by n!, is the product of all positive integers less than or equal to n. 1
  Also,
  The value of 0! is 1, according to the convention for an empty product.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://whatdahex.dev/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://whatdahex.dev/about/</guid>
-      <description>Hi, I am Faiz Ilahi Kothari. I currently work at Cisco Systems India.
-This blog is kind of a weblog of my learnings and is a collection of random musings. Don&#39;t expect it to help you conquer Earth or clean your laundry. You are free to use the whole or part of the content in whichever way you want, though I am not responsible if that burns your hair or kills your cat (Yes, it&#39;s suppose to sound cool :stuck_out_tongue_winking_eye: ).</description>
     </item>
     
   </channel>
