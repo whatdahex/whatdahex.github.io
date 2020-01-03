@@ -3,11 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://whatdahex.dev/</loc>
+    <loc>https://whatdahex.dev/about/</loc>
   </url>
   
   <url>
     <loc>https://whatdahex.dev/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://whatdahex.dev/</loc>
   </url>
   
 </urlset>
