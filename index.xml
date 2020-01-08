@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© WhatDaHex.dev</copyright>
-    <lastBuildDate>Fri, 03 Jan 2020 17:11:47 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 23:07:46 +0530</lastBuildDate>
     
 	<atom:link href="https://whatdahex.dev/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>2020_01_09</title>
+      <link>https://whatdahex.dev/logs/2020_01_09/</link>
+      <pubDate>Wed, 08 Jan 2020 23:07:46 +0530</pubDate>
+      
+      <guid>https://whatdahex.dev/logs/2020_01_09/</guid>
+      <description>Today is the first day on a long way to transformation..
+This is how my refridgerator looks like:
+  All stocked and ready!
+    Eggs! A lot of them :P
+  </description>
+    </item>
     
     <item>
       <title>Factorial</title>
